@@ -1,9 +1,8 @@
 // https://www.youtube.com/watch?v=zdp0zrpKzIE&t=1206s
 const arr = [8, 5, 9, 11, 12, 15];
 
-
 // const output = arr.filter((x) => x >10
-   
+
 // );
 // console.log(output);
 // function isOdd(x){
@@ -19,10 +18,10 @@ const arr = [8, 5, 9, 11, 12, 15];
 // console.log((output));
 
 //function greaterThan49(x) => x>4{
-    //     return x > 4;
-     //}
-    //  const output = arr.filter((x) => x > 10);
-    //  console.log((output));
+//     return x > 4;
+//}
+//  const output = arr.filter((x) => x > 10);
+//  console.log((output));
 
 // function isEven(x){
 //          return x % 2 === 0;
@@ -61,19 +60,15 @@ const arr = [8, 5, 9, 11, 12, 15];
 //         //sum = sum + arr[i];
 //         return max;
 //     }
-    
-    
-    // console.log(findMax(arr));
 
-    function findMax(arr){
+// console.log(findMax(arr));
 
-    }
-    console.log(findMax(arr));
-    const output = arr.reduce(function(max, curr){
-        if (curr>max){
-            max = curr;
-        }
-        return max;
-    });
-    console.log(output);
-
+function findMax(arr) {}
+console.log(findMax(arr));
+const output = arr.reduce(function (max, curr) {
+  if (curr > max) {
+    max = curr;
+  }
+  return max;
+});
+console.log(output);
