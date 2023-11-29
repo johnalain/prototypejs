@@ -1,4 +1,5 @@
 // https://www.youtube.com/watch?v=spvYqO_Kp9Q
+//in  prototypejs folder in github
 function getData() {
   return new Promise((resolve) => {
     setTimeout(() => {
