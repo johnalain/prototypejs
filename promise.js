@@ -1,3 +1,5 @@
+// prototypejs  folder in github contain Promise.js
+//https://www.youtube.com/watch?v=DHvZLI7Db8E
 let p = new Promise((resolve, reject) => {
   let a = 12 + 2;
   if (a == 17) {
